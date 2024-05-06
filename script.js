@@ -5,3 +5,4 @@ button.addEventListener("click", function() {
   let input = document.querySelector("input[type='text']");
   alert("Vous avez cherché : " + input.value);
 });
+neuille
