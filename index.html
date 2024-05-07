@@ -6,21 +6,19 @@
     <meta name="description" content="Achetez les meilleurs produits en ligne">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-neuille
+
   <body>
     <header>
       <nav>
         <ul>
-          <li><a href="produits.html">Accueil</a></li>
-          <li><a href="#">Produits</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="panier.html">Panier</a></li>
         </ul>
       </nav>
       <h1>Bienvenue sur notre site de vente en ligne</h1>
-      <p>Achetez les meilleurs produits en ligne</p>
+      <p>To The Moon</p>
       <form>
         <input type="text" placeholder="Recherche...">
         <button type="submit">Rechercher</button>
@@ -28,21 +26,50 @@ neuille
     </header>
 
     <main>
-      <section>
-        <h2>Nouveautés</h2>
-        <ul>
-          <li><a href="#"><img src="nouveaute1.jpg" alt="Nouveauté 1"></a></li>
-          <li><a href="#"><img src="nouveaute2.jpg" alt="Nouveauté 2"></a></li>
-          <li><a href="#"><img src="nouveaute3.jpg" alt="Nouveauté 3"></a></li>
-        </ul>
-      </section>
+
 
       <section>
         <h2>Produits populaires</h2>
         <ul>
-          <li><a href="#"><img tilte="Puff 9K" src="produit1.webp" alt="Puff 9K"></a></li>
-          <li><a href="#"><img title="Grec" src="produit2.webp" alt="Grec"></a></li>
-          <li><a href="#"><img title="Crocs" src="produit3.webp" alt="Crocs"></a></li>
+          <li>
+            <img src="produit1.webp" alt="Produit 1" id="produit1">
+            <div id="modal-produit1" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Puff</h2>
+                <p>Ceci est une description du produit "Puff".</p>
+                <p>Nouvelle puff gout cerise.</p>
+                <p>Le prix du produit est de 10€.</p>
+                <button id="ajouter1">Ajouter au panier</button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="produit2.webp" alt="Produit 2" id="produit2">
+            <div id="modal-produit2" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Sandwich</h2>
+                <p>Ceci est une description du produit "Sandwich". </p>
+                <p>Nouveau sandwich à la viande de kebab.</p>
+                <p>Le prix du produit est de 7€.</p>
+                <button id="ajouter2">Ajouter au panier</button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="produit3.webp" alt="Produit 3" id="produit3">
+            <div id="modal-produit3" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Crocs</h2>
+                <p>Ceci est une description du produit "Crocs".</p>
+                <p>Nouveau model de crocs "Cars".</p>
+                <p>Le prix du produit est de 70€.</p>
+                <button id="ajouter3">Ajouter au panier</button>
+              </div>
+            </div>
+          </li>
         </ul>
       </section>
     </main>
@@ -51,6 +78,8 @@ neuille
       <p>&copy;2024 To the moon | Tous droits réservés.</p>
     </footer>
 
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
   </body>
-  <html>
+</html>

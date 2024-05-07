@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Paiement</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Page de paiement avec des formulaires pour les informations de paiement">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="panier.html">Panier</a></li>
+          <li><a href="aide.html">Aide</a></li>
+        </ul>
+      </nav>
+      <h1>Paiement</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Informations de paiement</h2>
+        <form>
+          <div>
+            <label for="nom">Nom complet :</label>
+            <input type="text" id="nom" required>
+          </div>
+          <div>
+            <label for="numero-carte">Numéro de carte bancaire :</label>
+            <input type="text" id="numero-carte" required>
+          </div>
+          <div>
+            <label for="date-expiration">Date d'expiration :</label>
+            <input type="text" id="date-expiration" required>
+          </div>
+          <div>
+            <label for="code-cvv">Code CVV :</label>
+            <input type="text" id="code-cvv" required>
+          </div>
+          <button type="submit">Valider le paiement</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy;2024 To the moon | Tous droits réservés.</p>
+    </footer>
+  </body>
+</html> 
